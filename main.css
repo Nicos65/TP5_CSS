@@ -1,0 +1,41 @@
+.dice {
+    border: 2px red solid;
+    border-radius: 25px;
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#d4 div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#d5 div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+#d6 div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border: 1px red solid;
+    background-color: red;
+    border-radius: 10px;
+}
